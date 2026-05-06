@@ -1,0 +1,3 @@
+# Dépendances pour l'interface TRIBE v2
+gradio>=6.0.0
+tribev2 @ file:./tribev2
