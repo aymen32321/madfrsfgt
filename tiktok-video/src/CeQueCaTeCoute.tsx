@@ -2,9 +2,11 @@ import React from 'react';
 import {
   AbsoluteFill,
   Easing,
+  Html5Audio,
   Sequence,
   interpolate,
   spring,
+  staticFile,
   useCurrentFrame,
   useVideoConfig,
 } from 'remotion';
@@ -578,6 +580,46 @@ const SCENES: Scene[] = [
 const starts = SCENES.reduce<number[]>((acc, s, i) => [...acc, i === 0 ? 0 : acc[i - 1] + SCENES[i - 1].dur], []);
 export const TOTAL_FRAMES = SCENES.reduce((sum, s) => sum + s.dur, 0);
 
+/* ---------- Effets sonores (générés par sfx/generate.py) ---------- */
+
+type Sfx = {at: number; file: string; volume?: number};
+
+const range = (n: number) => Array.from({length: n}, (_, i) => i);
+
+const SOUNDS: Sfx[] = [
+  // Woosh à chaque changement de scène.
+  ...starts.slice(1).map((s) => ({at: s - 6, file: 'whoosh', volume: 0.5})),
+  // Hook : notification puis apparition du prix.
+  {at: starts[0] + 2, file: 'notif'},
+  {at: starts[0] + 20, file: 'pop'},
+  // Prix barré, puis les 12 mois qui s'allument.
+  {at: starts[1] + 8, file: 'swipe', volume: 0.7},
+  ...range(12).map((i) => ({at: starts[1] + 33 + i * 4, file: `tick${i}`, volume: 0.6})),
+  // Carte du calcul + montée de la barre "1 an".
+  {at: starts[2], file: 'pop'},
+  {at: starts[2] + 19, file: 'riser', volume: 0.8},
+  // Les 10 années qui s'allument (suit l'easing out-quad du compteur).
+  ...range(10).map((i) => ({at: starts[3] + Math.ceil(12 + 73 * (1 - Math.sqrt(1 - i / 10))), file: `tick${i}`, volume: 0.6})),
+  // Les 3 abonnements, puis le total.
+  ...range(3).map((i) => ({at: starts[4] + 1 + i * 8, file: 'pop', volume: 0.8})),
+  {at: starts[4] + 62, file: 'pop'},
+  // Le toggle qu'on coupe, puis les économies.
+  {at: starts[5] + CUT_FRAME, file: 'click'},
+  {at: starts[5] + CUT_FRAME + 10, file: 'kaching', volume: 0.8},
+  // Total final.
+  {at: starts[6] + 2, file: 'impact'},
+];
+
+const SoundEffects = () => (
+  <>
+    {SOUNDS.map((s, i) => (
+      <Sequence key={i} from={s.at} layout="none">
+        <Html5Audio src={staticFile(`sfx/${s.file}.wav`)} volume={s.volume ?? 1} />
+      </Sequence>
+    ))}
+  </>
+);
+
 const SceneWrap: React.FC<{dur: number; children: React.ReactNode}> = ({dur, children}) => {
   const frame = useCurrentFrame();
   const o = interpolate(frame, [0, 8, dur - 8, dur], [0, 1, 1, 0], clamp);
@@ -594,6 +636,7 @@ export const CeQueCaTeCoute = () => {
   return (
     <AbsoluteFill style={{fontFamily: FONT, color: C.text}}>
       <Background />
+      <SoundEffects />
       <Header section={SCENES[current].section} savings={savings} showSavings={frame >= starts[2]} />
       {SCENES.map((s, i) => (
         <Sequence key={i} from={starts[i]} durationInFrames={s.dur}>
