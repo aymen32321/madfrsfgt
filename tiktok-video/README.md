@@ -13,7 +13,9 @@ Vidéos verticales (1080×1920, 30 i/s) entièrement codées avec [Remotion](htt
 - `src/rappel/captions.json` : sous-titres karaoké, minutés mot par mot. Générés par `tools/build_rappel_captions.py` à partir de la transcription de la vidéo de référence (`tools/transcribe.py`, faster-whisper), avec le texte corrigé à la main.
 - `src/rappel/art.tsx` : les dessins SVG (lunes, tonneaux de dattes, fumée, lasso, dôme, lit, fenêtre, réseau).
 - `src/rappel/Rappel.tsx` : la chronologie des scènes, les cartes et l'arabe (police Amiri, `dir="rtl"`, animé mot par mot).
-- Le skill `motion-design` (LottieFiles, licence MIT) est installé dans `.claude/skills/` à la racine du dépôt : courbes, durées, principes de Disney.
+## Skills de motion design
+
+Les 8 outils de la vidéo « 8 outils motion design » sont installés dans `.claude/skills/` à la racine du dépôt (32 skills). Le catalogue, les cas d'usage et les règles communes sont dans [`SKILLS.md`](SKILLS.md).
 
 ## « Ce que ça te coûte »
 
