@@ -1,2 +1,4 @@
 node_modules
 out
+# Médias tiers (HugoDécrypte) : régénérer avec les commandes du README
+public/kit

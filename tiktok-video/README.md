@@ -13,6 +13,20 @@ Vidéos verticales (1080×1920, 30 i/s) entièrement codées avec [Remotion](htt
 - `src/rappel/captions.json` : sous-titres karaoké, minutés mot par mot. Générés par `tools/build_rappel_captions.py` à partir de la transcription de la vidéo de référence (`tools/transcribe.py`, faster-whisper), avec le texte corrigé à la main.
 - `src/rappel/art.tsx` : les dessins SVG (lunes, tonneaux de dattes, fumée, lasso, dôme, lit, fenêtre, réseau).
 - `src/rappel/Rappel.tsx` : la chronologie des scènes, les cartes et l'arabe (police Amiri, `dir="rtl"`, animé mot par mot).
+## « Kit d'urgence » (hook + audio d'origine, reste refait)
+
+Composition `KitUrgence` (`src/kit/`) : le hook de la vidéo d'origine (0 à 6,27 s) est gardé tel quel, l'audio (voix et musique) court sur toute la vidéo, et tout le reste est une animation originale (« le sac se remplit » : 16 objets qui tombent dans un sac, puis une scène par partie de la narration).
+
+- `src/kit/narration.txt` : texte exact de la voix, découpé en blocs de sous-titres (`|`), mots en couleur entre `*`.
+- `src/kit/captions.json` : généré par `python3 tools/align_captions.py transcript.json src/kit/narration.txt src/kit/captions.json 6.3 81`.
+- `src/kit/icons.tsx` : les pictogrammes ; `src/kit/Kit.tsx` : les scènes, le minutage et les sons.
+- Les médias d'origine ne sont pas versionnés (`public/kit/` est ignoré). Pour les recréer à partir de la vidéo source :
+
+```bash
+ffmpeg -i source.mp4 -t 6.28 -an -vf "scale=1080:1920:flags=lanczos,fps=30" -c:v libx264 -crf 16 -pix_fmt yuv420p public/kit/hook.mp4
+ffmpeg -i source.mp4 -t 83.2 -vn -af "afade=t=out:st=82.6:d=0.6" -c:a pcm_s16le -ar 48000 public/kit/audio.wav
+```
+
 ## Skills de motion design
 
 Les 8 outils de la vidéo « 8 outils motion design » sont installés dans `.claude/skills/` à la racine du dépôt (32 skills). Le catalogue, les cas d'usage et les règles communes sont dans [`SKILLS.md`](SKILLS.md).
