@@ -4,6 +4,10 @@ Les 8 outils présentés dans la vidéo « 8 outils motion design » (compte Tik
 
 **Règle de base : les vidéos se fabriquent dans le projet Remotion `tiktok-video/`.** Les skills apportent la méthode (direction, rythme, son, sous-titres), pas un autre outil de rendu, sauf mention contraire.
 
+## Le skill maison : `tiktok-video-studio`
+
+À utiliser en premier pour toute vidéo. Il regroupe la méthode des 5 vidéos réalisées dans ce dépôt (styles, analyse d'une référence, sous-titres synchronisés, voix générée gratuite, sons, images IA cohérentes, vérifications) avec ses scripts et un modèle de composition. Les skills ci-dessous restent utiles pour approfondir un point.
+
 ## Les 8 outils
 
 | # | Outil dans la vidéo | Source | Skills installés | Quand s'en servir |
