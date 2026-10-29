@@ -146,7 +146,7 @@ type Word = {w: string; s: number; e: number; gold: boolean};
 const CHUNKS = captions as Word[][];
 const LEAD = 0.25;
 // Comme l'original : pas de ponctuation finale ni de guillemets dans les sous-titres.
-const clean = (w: string) => w.replace(/[«»]/g, '').replace(/[.,:;]+$/, '').trim();
+const clean = (w: string) => w.replace(/[«»]/g, '').replace(/\s+/g, ' ').trim().replace(/[.,:;]+$/, '');
 
 const Captions: React.FC<{t: number}> = ({t}) => {
   let idx = -1;
