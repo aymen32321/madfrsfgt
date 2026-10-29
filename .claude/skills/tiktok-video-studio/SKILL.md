@@ -1,6 +1,6 @@
 ---
 name: tiktok-video-studio
-description: Fabrique des vidéos TikTok / Reels / Shorts verticales (1080×1920) entièrement en code avec Remotion, du script au MP4 livré, dans cinq styles éprouvés — data nuit (chiffres, compteurs), duel 3D low-poly (face-à-face façon jeu télé), récit nuit et or (récits spirituels, versets en arabe), objets qui remplissent un contenant (listes, guides pratiques), histoire avec personnages 3D générés par IA et cartes d'interface. Couvre l'analyse d'une vidéo de référence (planches d'images, transcription mot par mot), les sous-titres karaoké synchronisés, la voix off (originale, générée gratuitement ou aucune), les effets sonores, les images IA cohérentes et la vérification avant livraison. Utilise ce skill dès que l'utilisateur veut créer, refaire, reproduire, imiter ou remonter une vidéo TikTok, un Reel, un Short, une vidéo « faite avec Claude », une vidéo explicative animée, une histoire illustrée, un motion design vertical, ou envoie une vidéo en disant « fais pareil », « refais-la », « garde le hook », « même style », même sans prononcer le mot Remotion.
+description: Fabrique des vidéos TikTok / Reels / Shorts verticales (1080×1920) entièrement en code avec Remotion, du script au MP4 livré, dans cinq styles éprouvés — data nuit (chiffres, compteurs), duel 3D low-poly (face-à-face façon jeu télé), récit nuit et or (récits spirituels, versets en arabe), objets qui remplissent un contenant (listes, guides pratiques), histoire avec personnages 3D générés par IA et cartes d'interface. Couvre l'analyse d'une vidéo de référence, les sous-titres synchronisés, la voix off (originale, générée gratuitement ou aucune), les effets sonores, les images IA cohérentes et la vérification. Utilise ce skill dès que l'utilisateur veut créer, refaire, reproduire, imiter ou remonter une vidéo TikTok, un Reel, un Short, une vidéo « faite avec Claude », une vidéo explicative animée, une histoire illustrée, un motion design vertical, ou envoie une vidéo en disant « fais pareil », « refais-la », « garde le hook », « même style », même sans prononcer le mot Remotion.
 ---
 
 # TikTok Video Studio
@@ -46,7 +46,7 @@ Regarder les images plutôt que supposer : c'est ce qui rend la reproduction fid
 
 ## 5. Construire la composition
 
-Partir de `assets/templates/Story.tsx` (et de `assets/templates/project/` si le projet Remotion n'existe pas). Il contient les briques réutilisées par toutes les vidéos : `prog`, `win`, `settle`, `typed`, `rand`, `Enter` (entrée glissée et floutée, sortie plus courte), `Pic` (PNG détouré avec ombre), `Glass` et `Card`, trois styles de sous-titres (`caps`, `karaoke`, `pills`), l'audio et les sons.
+Partir du projet type `assets/templates/project/` (s'il n'y a pas encore de projet Remotion) : la composition à remplir est `src/story/Story.tsx`. Reprendre les pièces du style choisi dans `assets/examples/<style>/`. `Story.tsx` contient les briques réutilisées par toutes les vidéos : `prog`, `win`, `settle`, `typed`, `rand`, `Enter` (entrée glissée et floutée, sortie plus courte), `Pic` (PNG détouré avec ombre), `Glass` et `Card`, quatre styles de sous-titres (`caps`, `karaoke`, `pills`, `rise`), l'audio et les sons.
 
 Principes qui font la différence :
 - **Continuité** : un personnage ou un objet qui reste d'une scène à l'autre ne doit pas ré-entrer ; une transition a une cause à l'écran (l'objet du hook qui s'ouvre en cercle, le sac qui se ferme et devient la jauge).
@@ -61,7 +61,8 @@ Principes qui font la différence :
 1. Images fixes à 10–20 instants (`scripts/stills.sh`) : les regarder vraiment (débordements, chevauchements avec les sous-titres, éléments coupés, texte trop petit) et corriger.
 2. Avec une référence : aperçu rapide puis comparaison côte à côte aux mêmes instants (`scripts/compare.sh`), corriger les écarts (lunes trop petites, sous-titres en retard, etc.).
 3. Rendu complet en arrière-plan (`scripts/render.sh`) ; attendre la fin sans sonder en boucle.
-4. `scripts/verify.sh` : format, durée, audio, loudness, planche finale.
+4. Volume : `scripts/master.sh` amène la bande son à −14 LUFS (sauf voix d'origine gardée telle quelle).
+5. `scripts/verify.sh` : format, durée, audio, loudness, planche finale.
 
 Les erreurs déjà rencontrées et leurs solutions sont dans `references/pitfalls.md` : le lire avant un premier rendu dans un nouvel environnement.
 
@@ -86,5 +87,6 @@ Les erreurs déjà rencontrées et leurs solutions sont dans `references/pitfall
 | `references/sound-voice.md` | voix off, effets sonores, loudness |
 | `references/arabic-rtl.md` | arabe, versets, textes religieux |
 | `references/pitfalls.md` | avant le premier rendu, ou quand quelque chose casse |
-| `scripts/` | `transcribe.py`, `align_captions.py`, `tts.py`, `gen_sfx.py`, `clean_alpha.py`, `contact_sheet.sh`, `frames_at.sh`, `scene_cuts.sh`, `stills.sh`, `compare.sh`, `render.sh`, `verify.sh` |
-| `assets/templates/` | `Story.tsx` (composition type) et `project/` (projet Remotion prêt à installer) |
+| `scripts/` | `transcribe.py`, `align_captions.py`, `tts.py`, `gen_sfx.py`, `clean_alpha.py`, `contact_sheet.sh`, `frames_at.sh`, `scene_cuts.sh`, `stills.sh`, `compare.sh`, `render.sh`, `master.sh`, `verify.sh` |
+| `assets/templates/project/` | projet Remotion prêt à installer, avec la composition type `src/story/Story.tsx` |
+| `assets/examples/` | le code complet des 5 vidéos livrées, une par style |

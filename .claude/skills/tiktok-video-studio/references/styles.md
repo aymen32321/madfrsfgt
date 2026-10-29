@@ -1,6 +1,6 @@
 # Les 5 styles éprouvés
 
-Chaque style a déjà été livré et validé. Les fichiers d'exemple cités existent dans le dépôt d'origine (`tiktok-video/src/…`) ; si le projet n'est pas là, les descriptions ci-dessous suffisent pour reconstruire.
+Chaque style a déjà été livré et validé. Son code source complet est fourni dans `assets/examples/<style>/` : le lire pour reprendre des pièces (en-têtes, compteurs, cartes, pictos, caméra 3D) plutôt que de tout réécrire. Ces fichiers importent des `captions.json` et des images de leur projet d'origine : copier les pièces utiles dans la nouvelle composition, pas le fichier entier.
 
 ## Choisir un style
 
@@ -18,18 +18,18 @@ Si une vidéo de référence est fournie, son style prime : le reconnaître dans
 
 ## A. Data nuit (« Ce que ça te coûte »)
 
-- **Exemple** : `src/CeQueCaTeCoute.tsx` (25 s, sans voix, 7 scènes).
+- **Exemple** : `assets/examples/a-data/CeQueCaTeCoute.tsx` (25 s, sans voix, 7 scènes).
 - **Fond** : bleu nuit `#0a0e16` avec halo radial bleu `rgba(59,130,246,0.16)` en haut, vignette.
 - **Couleurs** : texte `#f3f4f6`, gris `#6b7280`, bleu `#3b82f6` (gain), orange `#f97316` (coût).
 - **Typo** : Inter ; chiffres géants 170–230 px weight 800, letter-spacing −6 ; étiquettes 24–26 px capitales espacées (letter-spacing 7–8).
-- **Mise en page** : en-tête fixe (série « CE QUE ÇA TE COÛTE · N°2 », pastille « ÉCONOMIES 0 € », pastille de section + points de progression), scène centrale 470–1420, sous-titre à 1470.
+- **Mise en page** : en-tête fixe (série « CE QUE ÇA TE COÛTE · N°2 », pastille « ÉCONOMIES 0 € », pastille de section + points de progression), scène centrale 470–1250, sous-titres à `CAPTION_TOP` 1300 en style `rise` (l'original sans voix les plaçait à 1470 : rester à 1300 maximum quand la vidéo sera publiée).
 - **Mouvement** : compteurs qui défilent (easing out), barres qui se remplissent, prix barré par un trait qui se dessine, cases de mois qui s'allument une à une, interrupteur qu'on coupe avec un « doigt » (cercle) qui tape.
 - **Son** : tics en gamme montante quand les éléments s'allument, montée sous une barre, « ka-ching » quand les économies montent, impact sur le total.
 - **Chiffres** : uniquement des calculs vérifiables (9,99 × 12 = 119,88).
 
 ## B. Duel 3D low-poly (« Le Duel »)
 
-- **Exemple** : `src/duel/` (41 s) — `script.ts` (beats), `Stage3D.tsx` (Three.js), `Overlay.tsx` (habillage), `LeDuel.tsx` (caméra, sons).
+- **Exemple** : `assets/examples/b-duel3d/` (41 s) — `script.ts` (beats), `Stage3D.tsx` (Three.js), `Overlay.tsx` (habillage), `LeDuel.tsx` (caméra, sons).
 - **Rendu** : `@remotion/three` + `@react-three/fiber`, `Config.setChromiumOpenGlRenderer('swangle')` obligatoire sans GPU.
 - **Plateau** : sol orange/bleu coupé au centre, mur clair avec baies vitrées, arche d'ampoules qui clignotent en fête, pupitre rayé rose/jaune, deux socles avec étiquettes (texture canvas).
 - **Personnages en blocs** : présentateur (tête, cheveux, bouche dont la hauteur suit `|sin(t)|` quand il parle, clignements, gestes « pointer », « réfléchir », « hausser les épaules ») ; candidats stylisés (cube orange à pattes, icosaèdre blanc à antenne) qui sautillent en parlant.
@@ -40,7 +40,7 @@ Si une vidéo de référence est fournie, son style prime : le reconnaître dans
 
 ## C. Récit nuit et or (« Rappel »)
 
-- **Exemple** : `src/rappel/` (118 s) — `art.tsx` (SVG), `Rappel.tsx` (chronologie), `captions.json`.
+- **Exemple** : `assets/examples/c-recit-nuit-or/` (118 s) — `art.tsx` (SVG), `Rappel.tsx` (chronologie).
 - **Fond** : brun-noir chaud `#0b0908` → `#18130e`, étoiles qui scintillent ; rayons dorés coniques pour les moments sacrés.
 - **Couleurs** : or `#f0c45a`, crème `#f6e7bd`, indigo pour les lits et les fenêtres, fumée violet-noir.
 - **Symboles** : lunes (une par nuit, étiquette dorée), tonneaux de dattes, point lumineux = un personnage (avec un halo), fumée floutée = le mal ou le voleur, lasso doré (ellipses horizontales dont seul le tracé tourne), dôme de protection, lit, fenêtre cintrée, octogramme, réseau de points pour le partage.
@@ -51,7 +51,7 @@ Si une vidéo de référence est fournie, son style prime : le reconnaître dans
 
 ## D. Objets dans un contenant (« Kit d'urgence »)
 
-- **Exemple** : `src/kit/` (83 s) — `icons.tsx` (20 pictos), `Kit.tsx` (scènes), `narration.txt`.
+- **Exemple** : `assets/examples/d-objets-contenant/` (83 s) — `icons.tsx` (20 pictos), `Kit.tsx` (scènes), `narration.txt`.
 - **Fond** : crème `#f3ede2` avec trame de points, bande de sécurité orange/noire en bas.
 - **Couleurs** : encre `#1b1b1f`, orange sécurité `#ff5b1f`, sarcelle `#0e6e7e`, jaune `#ffc93c`, rouge `#e63946`.
 - **Pictos** : plats, contour encre 5 px, ombre portée dure décalée (copie noircie à 14 %), boîte 200×200.
@@ -61,7 +61,7 @@ Si une vidéo de référence est fournie, son style prime : le reconnaître dans
 
 ## E. Personnages 3D + cartes d'interface (« Ticket McDo »)
 
-- **Exemple** : `src/ticket/` (62 s) — `Ticket.tsx`, images dans `public/ticket/`.
+- **Exemple** : `assets/examples/e-personnages-cartes/` (62 s) — `Ticket.tsx` et sa narration ; les images générées ne sont pas fournies (les régénérer, voir `ai-assets.md`). Le modèle `Story.tsx` reprend la structure de ce style.
 - **Fond** : violet nuit `#3a2a8f` → `#23185f` → `#120d33`, grille fine à 3,5 %, étoiles, vignette.
 - **Personnages** : images 3D façon Pixar générées par IA sur fond transparent (voir `ai-assets.md`) ; le héros toujours à gauche (x ≈ 260–300, pieds à y 1250, hauteur 720–780 px), l'autre personnage ou l'objet à droite ; léger balancement (±0,8°), ombre floue au sol.
 - **Cartes** : verre sombre (`rgba(20,14,50,0.85)`, bord blanc 18 %) pour les infos, blanc pour les documents (ticket de caisse en police monospace avec bord dentelé, formulaire qui se remplit avec curseur, e-mail avec ligne surlignée), note sur 5 qui chute avec tremblement, interrupteur, tampon « NON », pastille jaune « ATTENTION ».

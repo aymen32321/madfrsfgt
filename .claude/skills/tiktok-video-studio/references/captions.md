@@ -12,6 +12,7 @@ Thomas attend *30 *minutes | son menu au McDo. | Le couple arrivé après lui | 
 - `|` sépare deux blocs affichés l'un après l'autre. Couper sur les respirations et les groupes de sens, jamais entre un article et son nom (« la | fin »).
 - `*mot*` ou `*mot` met le mot en couleur d'accent. 1 à 3 mots clés par phrase au maximum : un chiffre, le problème, la solution.
 - Les guillemets « » et les deux-points sont collés automatiquement au mot voisin.
+- Un nombre ou une unité qui ne doit pas être coupé : espace fine insécable (U+202F) ou insécable (U+00A0), par exemple `4 745 €`. Seuls les espaces ordinaires séparent les mots.
 
 `align_captions.py` apparie ces mots à ceux de la transcription (difflib) : un mot réécrit (« déclé » → « de clés ») reçoit le temps du segment entendu, un mot ajouté est interpolé.
 
@@ -19,10 +20,10 @@ Thomas attend *30 *minutes | son menu au McDo. | Le couple arrivé après lui | 
 
 | Style | Mots par bloc | Rendu |
 |---|---|---|
-| Histoire rythmée (E) | 2 à 4 | capitales, 58 px weight 900, mots clés rouges, sans ponctuation finale |
-| Liste pratique (D) | 3 à 6 | casse normale, 58 px weight 800, encre sur fond clair, mots clés orange |
-| Récit lent (C) | 3 à 6 | pastille sombre par mot soulignée d'indigo, 54–57 px |
-| Data (A) | une phrase par scène | 50 px weight 500, mots qui montent un à un |
+| Histoire rythmée (E) — style `caps` | 2 à 4 | capitales, 58 px weight 900, mots clés rouges, sans ponctuation finale |
+| Liste pratique (D) — style `karaoke` | 3 à 6 | casse normale, 58 px weight 800, encre sur fond clair, mots clés orange |
+| Récit lent (C) — style `pills` | 3 à 6 | pastille sombre par mot soulignée d'indigo, 54–57 px |
+| Data (A) | une phrase par scène | style `rise` : 50 px weight 500, mots qui montent un à un |
 
 ## Comportement
 

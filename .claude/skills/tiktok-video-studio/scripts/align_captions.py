@@ -5,7 +5,8 @@ Usage :
 
 - transcript.json : sortie de tools/transcribe.py (mots minutés par Whisper).
 - texte.txt : le texte exact à afficher. « | » sépare les blocs de sous-titres,
-  *mot* met un mot en couleur d'accent.
+  *mot* met un mot en couleur d'accent. Pour garder un nombre ou une unité d'un seul tenant,
+  utiliser une espace fine insécable (U+202F) ou insécable (U+00A0) : « 4 745 € ».
 - debut_s / fin_s : ne garder que les mots de la transcription dans cet intervalle.
 
 Les mots corrigés sont appariés aux mots de Whisper par alignement de séquence
@@ -45,7 +46,8 @@ for seg in json.load(open(transcript_path)):
 blocks = [b.strip() for b in open(text_path).read().replace("\n", " ").split("|") if b.strip()]
 words = []
 for bi, block in enumerate(blocks):
-    raw = block.split()
+    # Seuls les espaces ordinaires séparent les mots : « 4\u202f745 » ou « 13\u00a0€ » restent un seul mot.
+    raw = [w for w in re.split(r"[ \t\n]+", block) if w]
     toks = []
     for tok in raw:
         # Ponctuation isolée (« : », « ? », « » ») collée au mot précédent ; « « » au suivant.

@@ -1,5 +1,8 @@
 // Modèle de composition TikTok 1080×1920 (Remotion 4).
-// Copier dans src/<projet>/<Nom>.tsx, renommer, puis remplir SCENES (dans le JSX), SOUNDS et les constantes.
+// Emplacement : src/story/Story.tsx (déjà en place si le projet vient de assets/templates/project/),
+// avec captions.json à côté (produit par align_captions.py ; « [] » tant qu'il n'y a pas de narration).
+// Pour plusieurs vidéos dans un projet : copier dans src/<nom>/, renommer Story et ses constantes, l'ajouter à Root.tsx.
+// Remplir ensuite les scènes (dans le JSX), SOUNDS, la palette C et les constantes.
 // Toutes les animations sont des fonctions pures du temps t (en secondes) : aucun état, aucune horloge réelle.
 import React from 'react';
 import {AbsoluteFill, Easing, Html5Audio, Img, Sequence, interpolate, staticFile, useCurrentFrame} from 'remotion';
@@ -134,7 +137,8 @@ const CHUNKS = captions as Word[][];
 // 'caps' : capitales, mots clés en couleur (histoires, faits divers)
 // 'karaoke' : casse normale, mots à venir floutés (récits, explications)
 // 'pills' : chaque mot sur une pastille sombre soulignée (récits sur fond chargé)
-const CAPTION_STYLE = 'caps' as 'caps' | 'karaoke' | 'pills';
+// 'rise' : casse normale, 50 px weight 500, les mots montent un à un (style data A)
+const CAPTION_STYLE = 'caps' as 'caps' | 'karaoke' | 'pills' | 'rise';
 const CAPTION_TOP = 1300; // entre 950 et 1330 : jamais plus bas (interface TikTok)
 const LEAD = 0.2; // les mots s'affichent un peu avant d'être prononcés
 const clean = (w: string) => w.replace(/[«»]/g, '').replace(/\s+/g, ' ').trim().replace(/[.,:;]+$/, '');
@@ -156,8 +160,8 @@ const Captions: React.FC<{t: number}> = ({t}) => {
         const caps = CAPTION_STYLE === 'caps';
         const base: React.CSSProperties = {
           fontFamily: DISPLAY,
-          fontWeight: caps ? 900 : 800,
-          fontSize: caps ? 58 : 54,
+          fontWeight: caps ? 900 : CAPTION_STYLE === 'rise' ? 500 : 800,
+          fontSize: caps ? 58 : CAPTION_STYLE === 'rise' ? 50 : 54,
           lineHeight: 1.15,
           color: w.gold ? C.accent : C.text,
           whiteSpace: 'nowrap',
@@ -168,6 +172,8 @@ const Captions: React.FC<{t: number}> = ({t}) => {
         const anim: React.CSSProperties =
           CAPTION_STYLE === 'karaoke'
             ? {opacity: 0.25 + 0.75 * on, filter: on < 1 ? `blur(${(1 - on) * 6}px)` : undefined}
+            : CAPTION_STYLE === 'rise'
+            ? {opacity: on, transform: `translateY(${(1 - on) * 14}px)`}
             : {opacity: on, transform: `translateY(${(1 - on) * 10}px) scale(${1 + 0.08 * settle(t, w.s - LEAD, 0.3)})`, filter: on < 1 ? `blur(${(1 - on) * 6}px)` : undefined};
         const pill: React.CSSProperties =
           CAPTION_STYLE === 'pills' ? {background: 'rgba(14,12,20,0.72)', padding: '2px 12px 6px', borderRadius: 10, boxShadow: `inset 0 -5px 0 rgba(84,70,190,${0.35 + 0.65 * on})`} : {};
