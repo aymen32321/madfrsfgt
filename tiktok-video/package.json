@@ -6,6 +6,8 @@
     "render": "remotion render CeQueCaTeCoute out/video.mp4"
   },
   "dependencies": {
+    "@fontsource/amiri": "5.2.6",
+    "@fontsource/poppins": "5.2.6",
     "@react-three/fiber": "9.2.0",
     "@remotion/cli": "4.0.539",
     "@remotion/three": "4.0.539",
