@@ -27,6 +27,15 @@ ffmpeg -i source.mp4 -t 6.28 -an -vf "scale=1080:1920:flags=lanczos,fps=30" -c:v
 ffmpeg -i source.mp4 -t 83.2 -vn -af "afade=t=out:st=82.6:d=0.6" -c:a pcm_s16le -ar 48000 public/kit/audio.wav
 ```
 
+## « Ticket McDo » (personnages 3D générés)
+
+Composition `TicketMcDo` (`src/ticket/`) : reproduction d'une histoire illustrée (Thomas, son burger froid et sa réclamation), calée sur la voix de la vidéo de référence.
+
+- Personnages et objets : 17 images 3D façon Pixar sur fond transparent, générées avec Higgsfield (modèle GPT Image 2.5, qualité medium), dans `public/ticket/`. Thomas est généré une fois puis réutilisé comme image de référence pour toutes ses poses, ce qui garde le même visage d'une scène à l'autre.
+- Les cartes (ticket de caisse, formulaire, notes, e-mail, partage), la balance, l'horloge et les sous-titres sont en code.
+- `src/ticket/narration.txt` et `captions.json` : même méthode que « Kit d'urgence » (`tools/align_captions.py`).
+- La voix d'origine n'est pas versionnée : `ffmpeg -i source.mp4 -t 61.8 -vn -af "afade=t=out:st=61.2:d=0.6" -c:a pcm_s16le -ar 48000 public/ticket/audio.wav`.
+
 ## Skills de motion design
 
 Les 8 outils de la vidéo « 8 outils motion design » sont installés dans `.claude/skills/` à la racine du dépôt (32 skills). Le catalogue, les cas d'usage et les règles communes sont dans [`SKILLS.md`](SKILLS.md).
