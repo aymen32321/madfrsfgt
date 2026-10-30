@@ -1,0 +1,1572 @@
+[
+[
+{
+"w": "Thomas",
+"s": 0.0,
+"e": 0.22,
+"gold": false
+},
+{
+"w": "attend",
+"s": 0.22,
+"e": 0.56,
+"gold": false
+},
+{
+"w": "30",
+"s": 0.56,
+"e": 0.96,
+"gold": true
+},
+{
+"w": "minutes",
+"s": 0.96,
+"e": 1.18,
+"gold": true
+}
+],
+[
+{
+"w": "son",
+"s": 1.18,
+"e": 1.4,
+"gold": false
+},
+{
+"w": "menu",
+"s": 1.4,
+"e": 1.6,
+"gold": false
+},
+{
+"w": "au",
+"s": 1.6,
+"e": 1.72,
+"gold": false
+},
+{
+"w": "McDo.",
+"s": 1.72,
+"e": 2.0,
+"gold": false
+}
+],
+[
+{
+"w": "Le",
+"s": 2.2,
+"e": 2.32,
+"gold": false
+},
+{
+"w": "couple",
+"s": 2.32,
+"e": 2.48,
+"gold": false
+},
+{
+"w": "arrivé",
+"s": 2.48,
+"e": 2.74,
+"gold": false
+},
+{
+"w": "après",
+"s": 2.74,
+"e": 2.96,
+"gold": false
+},
+{
+"w": "lui",
+"s": 2.96,
+"e": 3.18,
+"gold": false
+}
+],
+[
+{
+"w": "est",
+"s": 3.18,
+"e": 3.44,
+"gold": false
+},
+{
+"w": "déjà",
+"s": 3.44,
+"e": 3.78,
+"gold": false
+},
+{
+"w": "en",
+"s": 3.78,
+"e": 3.94,
+"gold": false
+},
+{
+"w": "train",
+"s": 3.94,
+"e": 4.04,
+"gold": false
+}
+],
+[
+{
+"w": "de",
+"s": 4.04,
+"e": 4.1,
+"gold": false
+},
+{
+"w": "manger.",
+"s": 4.1,
+"e": 4.32,
+"gold": false
+}
+],
+[
+{
+"w": "Et",
+"s": 4.6,
+"e": 4.64,
+"gold": false
+},
+{
+"w": "quand",
+"s": 4.64,
+"e": 4.76,
+"gold": false
+},
+{
+"w": "Thomas",
+"s": 4.76,
+"e": 4.98,
+"gold": false
+},
+{
+"w": "ouvre",
+"s": 4.98,
+"e": 5.32,
+"gold": false
+}
+],
+[
+{
+"w": "enfin",
+"s": 5.32,
+"e": 5.66,
+"gold": false
+},
+{
+"w": "son",
+"s": 5.66,
+"e": 5.84,
+"gold": false
+},
+{
+"w": "sac,",
+"s": 5.84,
+"e": 6.08,
+"gold": false
+}
+],
+[
+{
+"w": "le",
+"s": 6.32,
+"e": 6.42,
+"gold": false
+},
+{
+"w": "burger",
+"s": 6.42,
+"e": 6.6,
+"gold": false
+},
+{
+"w": "est",
+"s": 6.6,
+"e": 6.82,
+"gold": false
+},
+{
+"w": "froid.",
+"s": 6.82,
+"e": 7.04,
+"gold": true
+}
+],
+[
+{
+"w": "Et",
+"s": 7.28,
+"e": 7.32,
+"gold": false
+},
+{
+"w": "le",
+"s": 7.32,
+"e": 7.42,
+"gold": false
+},
+{
+"w": "manager",
+"s": 7.42,
+"e": 7.62,
+"gold": false
+}
+],
+[
+{
+"w": "au",
+"s": 7.62,
+"e": 7.82,
+"gold": false
+},
+{
+"w": "comptoir",
+"s": 7.82,
+"e": 8.1,
+"gold": false
+},
+{
+"w": "lui",
+"s": 8.1,
+"e": 8.24,
+"gold": false
+},
+{
+"w": "répond :",
+"s": 8.24,
+"e": 8.48,
+"gold": false
+}
+],
+[
+{
+"w": "« Froid",
+"s": 8.82,
+"e": 8.98,
+"gold": false
+},
+{
+"w": "ou",
+"s": 8.98,
+"e": 9.12,
+"gold": false
+},
+{
+"w": "chaud,",
+"s": 9.12,
+"e": 9.32,
+"gold": false
+}
+],
+[
+{
+"w": "c'est",
+"s": 9.54,
+"e": 9.62,
+"gold": false
+},
+{
+"w": "le",
+"s": 9.62,
+"e": 9.68,
+"gold": false
+},
+{
+"w": "même",
+"s": 9.68,
+"e": 9.78,
+"gold": false
+},
+{
+"w": "prix,",
+"s": 9.78,
+"e": 10.0,
+"gold": false
+}
+],
+[
+{
+"w": "monsieur. »",
+"s": 10.0,
+"e": 10.24,
+"gold": false
+}
+],
+[
+{
+"w": "Sauf",
+"s": 10.56,
+"e": 10.68,
+"gold": false
+},
+{
+"w": "que",
+"s": 10.68,
+"e": 10.82,
+"gold": false
+},
+{
+"w": "le",
+"s": 10.82,
+"e": 10.9,
+"gold": false
+},
+{
+"w": "soir,",
+"s": 10.9,
+"e": 11.1,
+"gold": false
+}
+],
+[
+{
+"w": "Thomas",
+"s": 11.4,
+"e": 11.58,
+"gold": false
+},
+{
+"w": "ressort",
+"s": 11.58,
+"e": 11.96,
+"gold": false
+},
+{
+"w": "son",
+"s": 11.96,
+"e": 12.12,
+"gold": false
+},
+{
+"w": "ticket.",
+"s": 12.12,
+"e": 12.32,
+"gold": false
+}
+],
+[
+{
+"w": "Et",
+"s": 12.56,
+"e": 12.6,
+"gold": false
+},
+{
+"w": "sur",
+"s": 12.6,
+"e": 12.72,
+"gold": false
+},
+{
+"w": "ce",
+"s": 12.72,
+"e": 12.88,
+"gold": false
+},
+{
+"w": "petit",
+"s": 12.88,
+"e": 13.08,
+"gold": false
+}
+],
+[
+{
+"w": "bout",
+"s": 13.08,
+"e": 13.22,
+"gold": false
+},
+{
+"w": "de",
+"s": 13.22,
+"e": 13.3,
+"gold": false
+},
+{
+"w": "papier,",
+"s": 13.3,
+"e": 13.56,
+"gold": false
+}
+],
+[
+{
+"w": "il",
+"s": 13.84,
+"e": 13.88,
+"gold": false
+},
+{
+"w": "y",
+"s": 13.88,
+"e": 13.98,
+"gold": false
+},
+{
+"w": "a",
+"s": 13.98,
+"e": 14.04,
+"gold": false
+},
+{
+"w": "3",
+"s": 14.04,
+"e": 14.28,
+"gold": false
+},
+{
+"w": "infos",
+"s": 14.28,
+"e": 14.64,
+"gold": true
+}
+],
+[
+{
+"w": "qui",
+"s": 14.64,
+"e": 14.78,
+"gold": false
+},
+{
+"w": "changent",
+"s": 14.78,
+"e": 15.02,
+"gold": false
+},
+{
+"w": "tout :",
+"s": 15.02,
+"e": 15.18,
+"gold": false
+}
+],
+[
+{
+"w": "le",
+"s": 15.42,
+"e": 15.44,
+"gold": false
+},
+{
+"w": "numéro",
+"s": 15.44,
+"e": 15.66,
+"gold": false
+},
+{
+"w": "du",
+"s": 15.66,
+"e": 15.84,
+"gold": false
+},
+{
+"w": "restaurant,",
+"s": 15.84,
+"e": 16.2,
+"gold": false
+}
+],
+[
+{
+"w": "l'heure",
+"s": 16.46,
+"e": 16.58,
+"gold": false
+},
+{
+"w": "exacte",
+"s": 16.58,
+"e": 17.16,
+"gold": false
+},
+{
+"w": "de",
+"s": 17.16,
+"e": 17.24,
+"gold": false
+},
+{
+"w": "la",
+"s": 17.24,
+"e": 17.34,
+"gold": false
+},
+{
+"w": "commande",
+"s": 17.34,
+"e": 17.76,
+"gold": false
+}
+],
+[
+{
+"w": "et",
+"s": 17.76,
+"e": 17.88,
+"gold": false
+},
+{
+"w": "le",
+"s": 17.88,
+"e": 18.02,
+"gold": false
+},
+{
+"w": "prix",
+"s": 18.02,
+"e": 18.18,
+"gold": false
+},
+{
+"w": "payé.",
+"s": 18.18,
+"e": 18.52,
+"gold": false
+}
+],
+[
+{
+"w": "Il",
+"s": 18.66,
+"e": 18.76,
+"gold": false
+},
+{
+"w": "ouvre",
+"s": 18.76,
+"e": 18.92,
+"gold": false
+},
+{
+"w": "le",
+"s": 18.92,
+"e": 19.04,
+"gold": false
+},
+{
+"w": "formulaire",
+"s": 19.04,
+"e": 19.4,
+"gold": false
+}
+],
+[
+{
+"w": "de",
+"s": 19.4,
+"e": 19.48,
+"gold": false
+},
+{
+"w": "contact",
+"s": 19.48,
+"e": 19.74,
+"gold": false
+},
+{
+"w": "sur",
+"s": 19.74,
+"e": 20.02,
+"gold": false
+},
+{
+"w": "le",
+"s": 20.02,
+"e": 20.12,
+"gold": false
+},
+{
+"w": "site",
+"s": 20.12,
+"e": 20.28,
+"gold": false
+}
+],
+[
+{
+"w": "officiel",
+"s": 20.28,
+"e": 20.62,
+"gold": false
+},
+{
+"w": "de",
+"s": 20.62,
+"e": 20.74,
+"gold": false
+},
+{
+"w": "McDo.",
+"s": 20.74,
+"e": 21.04,
+"gold": false
+}
+],
+[
+{
+"w": "Et",
+"s": 21.14,
+"e": 21.22,
+"gold": false
+},
+{
+"w": "il",
+"s": 21.22,
+"e": 21.3,
+"gold": false
+},
+{
+"w": "écrit :",
+"s": 21.3,
+"e": 21.56,
+"gold": false
+}
+],
+[
+{
+"w": "« Restaurant",
+"s": 22.24,
+"e": 22.24,
+"gold": false
+},
+{
+"w": "1247,",
+"s": 22.24,
+"e": 23.18,
+"gold": false
+}
+],
+[
+{
+"w": "commande",
+"s": 23.52,
+"e": 23.82,
+"gold": false
+},
+{
+"w": "de",
+"s": 23.82,
+"e": 23.94,
+"gold": false
+},
+{
+"w": "12",
+"s": 23.94,
+"e": 24.19,
+"gold": false
+},
+{
+"w": "h",
+"s": 24.19,
+"e": 24.45,
+"gold": false
+},
+{
+"w": "42,",
+"s": 24.45,
+"e": 24.7,
+"gold": false
+}
+],
+[
+{
+"w": "30",
+"s": 24.86,
+"e": 25.06,
+"gold": false
+},
+{
+"w": "minutes",
+"s": 25.06,
+"e": 25.26,
+"gold": false
+},
+{
+"w": "d'attente",
+"s": 25.26,
+"e": 25.68,
+"gold": false
+}
+],
+[
+{
+"w": "et",
+"s": 25.68,
+"e": 25.92,
+"gold": false
+},
+{
+"w": "un",
+"s": 25.92,
+"e": 26.02,
+"gold": false
+},
+{
+"w": "burger",
+"s": 26.02,
+"e": 26.22,
+"gold": false
+},
+{
+"w": "froid. »",
+"s": 26.22,
+"e": 26.56,
+"gold": false
+}
+],
+[
+{
+"w": "Grâce",
+"s": 26.56,
+"e": 27.0,
+"gold": false
+},
+{
+"w": "au",
+"s": 27.0,
+"e": 27.08,
+"gold": false
+},
+{
+"w": "numéro",
+"s": 27.08,
+"e": 27.26,
+"gold": false
+},
+{
+"w": "du",
+"s": 27.26,
+"e": 27.44,
+"gold": false
+},
+{
+"w": "ticket,",
+"s": 27.44,
+"e": 27.66,
+"gold": false
+}
+],
+[
+{
+"w": "la",
+"s": 27.96,
+"e": 28.02,
+"gold": false
+},
+{
+"w": "réclamation",
+"s": 28.02,
+"e": 28.28,
+"gold": false
+},
+{
+"w": "arrive",
+"s": 28.28,
+"e": 28.68,
+"gold": false
+}
+],
+[
+{
+"w": "directement",
+"s": 28.68,
+"e": 29.3,
+"gold": false
+},
+{
+"w": "chez",
+"s": 29.3,
+"e": 29.52,
+"gold": false
+},
+{
+"w": "le",
+"s": 29.52,
+"e": 29.64,
+"gold": false
+},
+{
+"w": "bon",
+"s": 29.64,
+"e": 29.78,
+"gold": false
+}
+],
+[
+{
+"w": "franchisé.",
+"s": 29.78,
+"e": 30.26,
+"gold": false
+}
+],
+[
+{
+"w": "Et",
+"s": 30.5,
+"e": 30.52,
+"gold": false
+},
+{
+"w": "pour",
+"s": 30.52,
+"e": 30.66,
+"gold": false
+},
+{
+"w": "lui,",
+"s": 30.66,
+"e": 30.84,
+"gold": false
+}
+],
+[
+{
+"w": "un",
+"s": 31.08,
+"e": 31.16,
+"gold": false
+},
+{
+"w": "client",
+"s": 31.16,
+"e": 31.36,
+"gold": false
+},
+{
+"w": "mécontent,",
+"s": 31.36,
+"e": 31.88,
+"gold": false
+}
+],
+[
+{
+"w": "c'est",
+"s": 32.02,
+"e": 32.16,
+"gold": false
+},
+{
+"w": "une",
+"s": 32.16,
+"e": 32.32,
+"gold": false
+},
+{
+"w": "mauvaise",
+"s": 32.32,
+"e": 32.64,
+"gold": false
+},
+{
+"w": "note.",
+"s": 32.64,
+"e": 32.84,
+"gold": false
+}
+],
+[
+{
+"w": "Résultat :",
+"s": 33.12,
+"e": 33.52,
+"gold": false
+}
+],
+[
+{
+"w": "Thomas",
+"s": 33.9,
+"e": 33.9,
+"gold": false
+},
+{
+"w": "reçoit",
+"s": 33.9,
+"e": 34.2,
+"gold": false
+},
+{
+"w": "une",
+"s": 34.2,
+"e": 34.34,
+"gold": false
+},
+{
+"w": "réponse",
+"s": 34.34,
+"e": 34.66,
+"gold": false
+}
+],
+[
+{
+"w": "avec",
+"s": 34.66,
+"e": 35.1,
+"gold": false
+},
+{
+"w": "deux",
+"s": 35.1,
+"e": 35.5,
+"gold": false
+},
+{
+"w": "menus",
+"s": 35.5,
+"e": 35.76,
+"gold": true
+},
+{
+"w": "offerts.",
+"s": 35.76,
+"e": 36.24,
+"gold": true
+}
+],
+[
+{
+"w": "Son",
+"s": 36.42,
+"e": 36.5,
+"gold": false
+},
+{
+"w": "menu",
+"s": 36.5,
+"e": 36.72,
+"gold": false
+},
+{
+"w": "à",
+"s": 36.72,
+"e": 36.86,
+"gold": false
+},
+{
+"w": "11,50",
+"s": 36.86,
+"e": 37.22,
+"gold": false
+},
+{
+"w": "€",
+"s": 37.22,
+"e": 37.58,
+"gold": false
+}
+],
+[
+{
+"w": "vient",
+"s": 37.58,
+"e": 37.94,
+"gold": false
+},
+{
+"w": "de",
+"s": 37.94,
+"e": 38.08,
+"gold": false
+},
+{
+"w": "lui",
+"s": 38.08,
+"e": 38.16,
+"gold": false
+},
+{
+"w": "en",
+"s": 38.16,
+"e": 38.26,
+"gold": false
+},
+{
+"w": "rapporter",
+"s": 38.26,
+"e": 38.58,
+"gold": false
+}
+],
+[
+{
+"w": "23",
+"s": 38.58,
+"e": 38.88,
+"gold": true
+},
+{
+"w": "€.",
+"s": 38.88,
+"e": 39.34,
+"gold": true
+}
+],
+[
+{
+"w": "Pourquoi",
+"s": 39.34,
+"e": 39.48,
+"gold": false
+},
+{
+"w": "ça",
+"s": 39.48,
+"e": 39.68,
+"gold": false
+},
+{
+"w": "marche ?",
+"s": 39.68,
+"e": 39.94,
+"gold": false
+}
+],
+[
+{
+"w": "Car",
+"s": 40.18,
+"e": 40.26,
+"gold": false
+},
+{
+"w": "pour",
+"s": 40.26,
+"e": 40.44,
+"gold": false
+},
+{
+"w": "McDo,",
+"s": 40.44,
+"e": 40.78,
+"gold": false
+}
+],
+[
+{
+"w": "les",
+"s": 41.0,
+"e": 41.1,
+"gold": false
+},
+{
+"w": "notes",
+"s": 41.1,
+"e": 41.3,
+"gold": false
+},
+{
+"w": "et",
+"s": 41.3,
+"e": 41.4,
+"gold": false
+},
+{
+"w": "les",
+"s": 41.4,
+"e": 41.52,
+"gold": false
+},
+{
+"w": "avis,",
+"s": 41.52,
+"e": 41.76,
+"gold": false
+}
+],
+[
+{
+"w": "c'est",
+"s": 41.94,
+"e": 42.08,
+"gold": false
+},
+{
+"w": "ce",
+"s": 42.08,
+"e": 42.14,
+"gold": false
+},
+{
+"w": "qui",
+"s": 42.14,
+"e": 42.22,
+"gold": false
+},
+{
+"w": "fait",
+"s": 42.22,
+"e": 42.36,
+"gold": false
+}
+],
+[
+{
+"w": "venir",
+"s": 42.36,
+"e": 42.7,
+"gold": false
+},
+{
+"w": "ou",
+"s": 42.7,
+"e": 42.98,
+"gold": false
+},
+{
+"w": "fuir",
+"s": 42.98,
+"e": 43.3,
+"gold": true
+},
+{
+"w": "les",
+"s": 43.3,
+"e": 43.42,
+"gold": false
+},
+{
+"w": "clients.",
+"s": 43.42,
+"e": 43.66,
+"gold": false
+}
+],
+[
+{
+"w": "Alors",
+"s": 43.9,
+"e": 44.0,
+"gold": false
+},
+{
+"w": "offrir",
+"s": 44.0,
+"e": 44.28,
+"gold": false
+},
+{
+"w": "deux",
+"s": 44.28,
+"e": 44.56,
+"gold": false
+},
+{
+"w": "menus",
+"s": 44.56,
+"e": 44.82,
+"gold": false
+}
+],
+[
+{
+"w": "leur",
+"s": 44.82,
+"e": 45.06,
+"gold": false
+},
+{
+"w": "coûte",
+"s": 45.06,
+"e": 45.3,
+"gold": false
+},
+{
+"w": "bien",
+"s": 45.3,
+"e": 45.52,
+"gold": false
+},
+{
+"w": "moins",
+"s": 45.52,
+"e": 45.68,
+"gold": false
+}
+],
+[
+{
+"w": "cher",
+"s": 45.68,
+"e": 45.9,
+"gold": false
+},
+{
+"w": "qu'un",
+"s": 45.9,
+"e": 46.06,
+"gold": false
+},
+{
+"w": "client",
+"s": 46.06,
+"e": 46.24,
+"gold": false
+},
+{
+"w": "perdu.",
+"s": 46.24,
+"e": 46.56,
+"gold": false
+}
+],
+[
+{
+"w": "Attention,",
+"s": 46.8,
+"e": 47.0,
+"gold": false
+}
+],
+[
+{
+"w": "McDo",
+"s": 47.36,
+"e": 47.6,
+"gold": false
+},
+{
+"w": "n'est",
+"s": 47.6,
+"e": 47.78,
+"gold": false
+},
+{
+"w": "pas",
+"s": 47.78,
+"e": 47.9,
+"gold": false
+},
+{
+"w": "obligé",
+"s": 47.9,
+"e": 48.3,
+"gold": false
+}
+],
+[
+{
+"w": "de",
+"s": 48.3,
+"e": 48.4,
+"gold": false
+},
+{
+"w": "dédommager,",
+"s": 48.4,
+"e": 48.82,
+"gold": false
+}
+],
+[
+{
+"w": "c'est",
+"s": 49.0,
+"e": 49.1,
+"gold": false
+},
+{
+"w": "un",
+"s": 49.1,
+"e": 49.22,
+"gold": false
+},
+{
+"w": "geste",
+"s": 49.22,
+"e": 49.48,
+"gold": false
+},
+{
+"w": "commercial.",
+"s": 49.48,
+"e": 49.9,
+"gold": true
+}
+],
+[
+{
+"w": "Et",
+"s": 50.12,
+"e": 50.18,
+"gold": false
+},
+{
+"w": "ça",
+"s": 50.18,
+"e": 50.28,
+"gold": false
+},
+{
+"w": "ne",
+"s": 50.28,
+"e": 50.38,
+"gold": false
+},
+{
+"w": "marche",
+"s": 50.38,
+"e": 50.58,
+"gold": false
+}
+],
+[
+{
+"w": "que",
+"s": 50.58,
+"e": 50.78,
+"gold": false
+},
+{
+"w": "pour",
+"s": 50.78,
+"e": 50.96,
+"gold": false
+},
+{
+"w": "une",
+"s": 50.96,
+"e": 51.08,
+"gold": false
+},
+{
+"w": "commande",
+"s": 51.08,
+"e": 51.44,
+"gold": false
+}
+],
+[
+{
+"w": "vraiment",
+"s": 51.44,
+"e": 51.74,
+"gold": false
+},
+{
+"w": "ratée.",
+"s": 51.74,
+"e": 52.14,
+"gold": false
+}
+],
+[
+{
+"w": "Mais",
+"s": 52.32,
+"e": 52.42,
+"gold": false
+},
+{
+"w": "sans",
+"s": 52.42,
+"e": 52.58,
+"gold": false
+},
+{
+"w": "ticket,",
+"s": 52.58,
+"e": 52.82,
+"gold": false
+}
+],
+[
+{
+"w": "aucune",
+"s": 53.0,
+"e": 53.16,
+"gold": true
+},
+{
+"w": "chance.",
+"s": 53.16,
+"e": 53.48,
+"gold": true
+}
+],
+[
+{
+"w": "Alors",
+"s": 53.48,
+"e": 53.92,
+"gold": false
+},
+{
+"w": "la",
+"s": 53.92,
+"e": 54.06,
+"gold": false
+},
+{
+"w": "prochaine",
+"s": 54.06,
+"e": 54.3,
+"gold": false
+},
+{
+"w": "fois",
+"s": 54.3,
+"e": 54.52,
+"gold": false
+}
+],
+[
+{
+"w": "que",
+"s": 54.52,
+"e": 54.64,
+"gold": false
+},
+{
+"w": "ton",
+"s": 54.64,
+"e": 54.74,
+"gold": false
+},
+{
+"w": "burger",
+"s": 54.74,
+"e": 54.94,
+"gold": false
+},
+{
+"w": "arrive",
+"s": 54.94,
+"e": 55.26,
+"gold": false
+},
+{
+"w": "froid,",
+"s": 55.26,
+"e": 55.56,
+"gold": true
+}
+],
+[
+{
+"w": "ne",
+"s": 55.82,
+"e": 55.86,
+"gold": false
+},
+{
+"w": "t'énerve",
+"s": 55.86,
+"e": 56.28,
+"gold": false
+},
+{
+"w": "pas",
+"s": 56.28,
+"e": 56.46,
+"gold": false
+}
+],
+[
+{
+"w": "au",
+"s": 56.46,
+"e": 56.56,
+"gold": false
+},
+{
+"w": "comptoir.",
+"s": 56.56,
+"e": 56.9,
+"gold": false
+}
+],
+[
+{
+"w": "Garde",
+"s": 57.24,
+"e": 57.48,
+"gold": false
+},
+{
+"w": "ton",
+"s": 57.48,
+"e": 57.62,
+"gold": false
+},
+{
+"w": "ticket.",
+"s": 57.62,
+"e": 57.82,
+"gold": true
+}
+],
+[
+{
+"w": "Et",
+"s": 58.1,
+"e": 58.18,
+"gold": false
+},
+{
+"w": "envoie",
+"s": 58.18,
+"e": 58.38,
+"gold": false
+},
+{
+"w": "cette",
+"s": 58.38,
+"e": 58.52,
+"gold": false
+},
+{
+"w": "vidéo",
+"s": 58.52,
+"e": 58.76,
+"gold": false
+}
+],
+[
+{
+"w": "aux",
+"s": 58.76,
+"e": 58.94,
+"gold": false
+},
+{
+"w": "potes",
+"s": 58.94,
+"e": 59.18,
+"gold": false
+},
+{
+"w": "qui",
+"s": 59.18,
+"e": 59.24,
+"gold": false
+},
+{
+"w": "mangent",
+"s": 59.24,
+"e": 59.42,
+"gold": false
+}
+],
+[
+{
+"w": "toujours",
+"s": 59.42,
+"e": 59.64,
+"gold": false
+},
+{
+"w": "froid.",
+"s": 59.64,
+"e": 59.9,
+"gold": true
+}
+]
+]

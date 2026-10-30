@@ -1,0 +1,1566 @@
+[
+[
+{
+"w": "Attention.",
+"s": 0.1,
+"e": 0.72,
+"gold": false
+}
+],
+[
+{
+"w": "La",
+"s": 1.53,
+"e": 1.73,
+"gold": false
+},
+{
+"w": "rétatrutide",
+"s": 1.75,
+"e": 2.46,
+"gold": false
+},
+{
+"w": "vendue",
+"s": 2.48,
+"e": 2.79,
+"gold": false
+},
+{
+"w": "en",
+"s": 2.81,
+"e": 2.91,
+"gold": false
+},
+{
+"w": "ligne",
+"s": 2.92,
+"e": 3.21,
+"gold": false
+}
+],
+[
+{
+"w": "n'est",
+"s": 3.22,
+"e": 3.38,
+"gold": false
+},
+{
+"w": "pas",
+"s": 3.4,
+"e": 3.51,
+"gold": true
+},
+{
+"w": "autorisée.",
+"s": 3.53,
+"e": 4.19,
+"gold": true
+}
+],
+[
+{
+"w": "Contenu",
+"s": 5.0,
+"e": 5.41,
+"gold": false
+},
+{
+"w": "non",
+"s": 5.42,
+"e": 5.58,
+"gold": true
+},
+{
+"w": "contrôlé,",
+"s": 5.59,
+"e": 6.12,
+"gold": true
+}
+],
+[
+{
+"w": "effets",
+"s": 6.39,
+"e": 6.59,
+"gold": false
+},
+{
+"w": "graves",
+"s": 6.6,
+"e": 6.85,
+"gold": true
+},
+{
+"w": "possibles.",
+"s": 6.86,
+"e": 7.49,
+"gold": false
+}
+],
+[
+{
+"w": "Le",
+"s": 8.3,
+"e": 8.5,
+"gold": false
+},
+{
+"w": "plus",
+"s": 8.51,
+"e": 8.7,
+"gold": false
+},
+{
+"w": "sûr :",
+"s": 8.71,
+"e": 9.03,
+"gold": false
+}
+],
+[
+{
+"w": "un",
+"s": 9.4,
+"e": 9.47,
+"gold": false
+},
+{
+"w": "suivi",
+"s": 9.48,
+"e": 9.81,
+"gold": true
+},
+{
+"w": "médical.",
+"s": 9.82,
+"e": 10.52,
+"gold": true
+}
+],
+[
+{
+"w": "Si",
+"s": 11.33,
+"e": 11.5,
+"gold": false
+},
+{
+"w": "tu",
+"s": 11.51,
+"e": 11.63,
+"gold": false
+},
+{
+"w": "le",
+"s": 11.64,
+"e": 11.75,
+"gold": false
+},
+{
+"w": "fais",
+"s": 11.76,
+"e": 11.9,
+"gold": false
+},
+{
+"w": "quand",
+"s": 11.91,
+"e": 12.06,
+"gold": false
+},
+{
+"w": "même,",
+"s": 12.08,
+"e": 12.37,
+"gold": false
+}
+],
+[
+{
+"w": "voici",
+"s": 12.7,
+"e": 13.02,
+"gold": false
+},
+{
+"w": "comment",
+"s": 13.03,
+"e": 13.3,
+"gold": false
+},
+{
+"w": "le",
+"s": 13.31,
+"e": 13.42,
+"gold": false
+},
+{
+"w": "faire",
+"s": 13.43,
+"e": 13.63,
+"gold": false
+}
+],
+[
+{
+"w": "sans",
+"s": 13.64,
+"e": 13.76,
+"gold": false
+},
+{
+"w": "prendre",
+"s": 13.78,
+"e": 14.09,
+"gold": false
+},
+{
+"w": "de",
+"s": 14.11,
+"e": 14.2,
+"gold": false
+},
+{
+"w": "risque.",
+"s": 14.21,
+"e": 14.62,
+"gold": false
+}
+],
+[
+{
+"w": "Le",
+"s": 15.44,
+"e": 15.62,
+"gold": false
+},
+{
+"w": "matériel :",
+"s": 15.64,
+"e": 16.26,
+"gold": false
+}
+],
+[
+{
+"w": "ton",
+"s": 16.58,
+"e": 16.73,
+"gold": false
+},
+{
+"w": "flacon",
+"s": 16.75,
+"e": 17.12,
+"gold": false
+},
+{
+"w": "de",
+"s": 17.13,
+"e": 17.25,
+"gold": false
+},
+{
+"w": "10",
+"s": 17.26,
+"e": 17.64,
+"gold": true
+},
+{
+"w": "mg,",
+"s": 17.64,
+"e": 18.02,
+"gold": true
+}
+],
+[
+{
+"w": "de",
+"s": 18.32,
+"e": 18.41,
+"gold": false
+},
+{
+"w": "l'eau",
+"s": 18.42,
+"e": 18.53,
+"gold": false
+},
+{
+"w": "bactériostatique,",
+"s": 18.54,
+"e": 19.53,
+"gold": false
+}
+],
+[
+{
+"w": "des",
+"s": 19.88,
+"e": 19.99,
+"gold": false
+},
+{
+"w": "seringues",
+"s": 20.0,
+"e": 20.4,
+"gold": false
+},
+{
+"w": "à",
+"s": 20.41,
+"e": 20.46,
+"gold": false
+},
+{
+"w": "insuline",
+"s": 20.47,
+"e": 20.91,
+"gold": false
+},
+{
+"w": "neuves,",
+"s": 20.92,
+"e": 21.21,
+"gold": true
+}
+],
+[
+{
+"w": "des",
+"s": 21.55,
+"e": 21.64,
+"gold": false
+},
+{
+"w": "tampons",
+"s": 21.65,
+"e": 21.98,
+"gold": false
+},
+{
+"w": "d'alcool",
+"s": 21.99,
+"e": 22.43,
+"gold": false
+}
+],
+[
+{
+"w": "et",
+"s": 22.44,
+"e": 22.46,
+"gold": false
+},
+{
+"w": "une",
+"s": 22.48,
+"e": 22.58,
+"gold": false
+},
+{
+"w": "boîte",
+"s": 22.59,
+"e": 22.84,
+"gold": false
+},
+{
+"w": "à",
+"s": 22.85,
+"e": 22.9,
+"gold": false
+},
+{
+"w": "aiguilles.",
+"s": 22.91,
+"e": 23.36,
+"gold": false
+}
+],
+[
+{
+"w": "Lave-toi",
+"s": 24.18,
+"e": 24.62,
+"gold": false
+},
+{
+"w": "les",
+"s": 24.63,
+"e": 24.73,
+"gold": false
+},
+{
+"w": "mains",
+"s": 24.74,
+"e": 24.89,
+"gold": false
+},
+{
+"w": "au",
+"s": 24.91,
+"e": 24.99,
+"gold": false
+},
+{
+"w": "savon,",
+"s": 25.0,
+"e": 25.39,
+"gold": false
+}
+],
+[
+{
+"w": "puis",
+"s": 25.67,
+"e": 25.8,
+"gold": false
+},
+{
+"w": "désinfecte",
+"s": 25.81,
+"e": 26.43,
+"gold": false
+},
+{
+"w": "les",
+"s": 26.44,
+"e": 26.56,
+"gold": false
+},
+{
+"w": "bouchons",
+"s": 26.57,
+"e": 26.9,
+"gold": false
+}
+],
+[
+{
+"w": "avec",
+"s": 26.91,
+"e": 27.16,
+"gold": false
+},
+{
+"w": "un",
+"s": 27.17,
+"e": 27.24,
+"gold": false
+},
+{
+"w": "tampon",
+"s": 27.25,
+"e": 27.57,
+"gold": false
+},
+{
+"w": "d'alcool.",
+"s": 27.58,
+"e": 28.17,
+"gold": false
+}
+],
+[
+{
+"w": "Avec",
+"s": 28.99,
+"e": 29.25,
+"gold": false
+},
+{
+"w": "une",
+"s": 29.26,
+"e": 29.38,
+"gold": false
+},
+{
+"w": "seringue",
+"s": 29.39,
+"e": 29.81,
+"gold": false
+},
+{
+"w": "neuve,",
+"s": 29.82,
+"e": 30.16,
+"gold": false
+}
+],
+[
+{
+"w": "ajoute",
+"s": 30.47,
+"e": 30.84,
+"gold": false
+},
+{
+"w": "2",
+"s": 30.85,
+"e": 31.09,
+"gold": true
+},
+{
+"w": "mL",
+"s": 31.09,
+"e": 31.33,
+"gold": true
+}
+],
+[
+{
+"w": "d'eau",
+"s": 31.35,
+"e": 31.46,
+"gold": false
+},
+{
+"w": "bactériostatique.",
+"s": 31.48,
+"e": 32.54,
+"gold": false
+}
+],
+[
+{
+"w": "Fais-la",
+"s": 33.35,
+"e": 33.66,
+"gold": false
+},
+{
+"w": "couler",
+"s": 33.67,
+"e": 33.95,
+"gold": false
+},
+{
+"w": "doucement",
+"s": 33.96,
+"e": 34.35,
+"gold": false
+}
+],
+[
+{
+"w": "contre",
+"s": 34.36,
+"e": 34.66,
+"gold": false
+},
+{
+"w": "la",
+"s": 34.67,
+"e": 34.78,
+"gold": false
+},
+{
+"w": "paroi",
+"s": 34.79,
+"e": 35.08,
+"gold": false
+},
+{
+"w": "du",
+"s": 35.09,
+"e": 35.2,
+"gold": false
+},
+{
+"w": "flacon.",
+"s": 35.21,
+"e": 35.71,
+"gold": false
+}
+],
+[
+{
+"w": "Fais",
+"s": 36.52,
+"e": 36.71,
+"gold": false
+},
+{
+"w": "tourner,",
+"s": 36.72,
+"e": 37.13,
+"gold": false
+}
+],
+[
+{
+"w": "ne",
+"s": 37.45,
+"e": 37.55,
+"gold": true
+},
+{
+"w": "secoue",
+"s": 37.56,
+"e": 37.82,
+"gold": true
+},
+{
+"w": "pas.",
+"s": 37.83,
+"e": 38.05,
+"gold": true
+}
+],
+[
+{
+"w": "Le",
+"s": 38.88,
+"e": 38.98,
+"gold": false
+},
+{
+"w": "liquide",
+"s": 38.99,
+"e": 39.41,
+"gold": false
+},
+{
+"w": "doit",
+"s": 39.42,
+"e": 39.59,
+"gold": false
+},
+{
+"w": "être",
+"s": 39.6,
+"e": 39.88,
+"gold": false
+},
+{
+"w": "limpide.",
+"s": 39.9,
+"e": 40.47,
+"gold": true
+}
+],
+[
+{
+"w": "Le",
+"s": 41.28,
+"e": 41.47,
+"gold": false
+},
+{
+"w": "calcul :",
+"s": 41.49,
+"e": 42.02,
+"gold": false
+}
+],
+[
+{
+"w": "10",
+"s": 42.35,
+"e": 42.65,
+"gold": false
+},
+{
+"w": "mg",
+"s": 42.65,
+"e": 42.96,
+"gold": false
+},
+{
+"w": "dans",
+"s": 42.97,
+"e": 43.1,
+"gold": false
+},
+{
+"w": "2",
+"s": 43.11,
+"e": 43.4,
+"gold": false
+},
+{
+"w": "mL,",
+"s": 43.4,
+"e": 43.68,
+"gold": false
+}
+],
+[
+{
+"w": "ça",
+"s": 44.0,
+"e": 44.15,
+"gold": false
+},
+{
+"w": "fait",
+"s": 44.16,
+"e": 44.3,
+"gold": false
+},
+{
+"w": "5",
+"s": 44.32,
+"e": 44.66,
+"gold": true
+},
+{
+"w": "mg",
+"s": 44.66,
+"e": 45.01,
+"gold": true
+},
+{
+"w": "par",
+"s": 45.02,
+"e": 45.2,
+"gold": false
+},
+{
+"w": "mL.",
+"s": 45.21,
+"e": 45.7,
+"gold": false
+}
+],
+[
+{
+"w": "Sur",
+"s": 46.51,
+"e": 46.76,
+"gold": false
+},
+{
+"w": "une",
+"s": 46.77,
+"e": 46.89,
+"gold": false
+},
+{
+"w": "seringue",
+"s": 46.9,
+"e": 47.28,
+"gold": false
+},
+{
+"w": "à",
+"s": 47.29,
+"e": 47.34,
+"gold": false
+},
+{
+"w": "insuline,",
+"s": 47.35,
+"e": 47.9,
+"gold": false
+}
+],
+[
+{
+"w": "100",
+"s": 48.15,
+"e": 48.47,
+"gold": false
+},
+{
+"w": "unités,",
+"s": 48.47,
+"e": 48.8,
+"gold": false
+},
+{
+"w": "c'est",
+"s": 49.07,
+"e": 49.2,
+"gold": false
+},
+{
+"w": "1",
+"s": 49.21,
+"e": 49.58,
+"gold": false
+},
+{
+"w": "mL.",
+"s": 49.58,
+"e": 49.95,
+"gold": false
+}
+],
+[
+{
+"w": "Donc",
+"s": 50.77,
+"e": 51.14,
+"gold": false
+},
+{
+"w": "10",
+"s": 51.16,
+"e": 51.48,
+"gold": true
+},
+{
+"w": "unités,",
+"s": 51.48,
+"e": 51.8,
+"gold": true
+}
+],
+[
+{
+"w": "c'est",
+"s": 52.13,
+"e": 52.28,
+"gold": false
+},
+{
+"w": "0,5",
+"s": 52.29,
+"e": 53.05,
+"gold": true
+},
+{
+"w": "mg.",
+"s": 53.05,
+"e": 53.82,
+"gold": true
+}
+],
+[
+{
+"w": "Ta",
+"s": 54.65,
+"e": 54.81,
+"gold": false
+},
+{
+"w": "dose,",
+"s": 54.82,
+"e": 55.19,
+"gold": false
+}
+],
+[
+{
+"w": "c'est",
+"s": 55.45,
+"e": 55.59,
+"gold": false
+},
+{
+"w": "un",
+"s": 55.6,
+"e": 55.76,
+"gold": false
+},
+{
+"w": "médecin",
+"s": 55.77,
+"e": 56.11,
+"gold": true
+},
+{
+"w": "qui",
+"s": 56.12,
+"e": 56.25,
+"gold": false
+},
+{
+"w": "la",
+"s": 56.26,
+"e": 56.36,
+"gold": false
+},
+{
+"w": "fixe.",
+"s": 56.37,
+"e": 56.85,
+"gold": false
+}
+],
+[
+{
+"w": "Désinfecte",
+"s": 57.67,
+"e": 58.29,
+"gold": false
+},
+{
+"w": "le",
+"s": 58.3,
+"e": 58.43,
+"gold": false
+},
+{
+"w": "bouchon,",
+"s": 58.45,
+"e": 58.83,
+"gold": false
+}
+],
+[
+{
+"w": "prélève",
+"s": 59.08,
+"e": 59.45,
+"gold": false
+},
+{
+"w": "ta",
+"s": 59.46,
+"e": 59.61,
+"gold": false
+},
+{
+"w": "dose,",
+"s": 59.62,
+"e": 59.97,
+"gold": false
+}
+],
+[
+{
+"w": "chasse",
+"s": 60.24,
+"e": 60.5,
+"gold": false
+},
+{
+"w": "les",
+"s": 60.51,
+"e": 60.64,
+"gold": false
+},
+{
+"w": "bulles",
+"s": 60.65,
+"e": 60.85,
+"gold": false
+},
+{
+"w": "d'air",
+"s": 60.86,
+"e": 61.09,
+"gold": false
+}
+],
+[
+{
+"w": "et",
+"s": 61.1,
+"e": 61.13,
+"gold": false
+},
+{
+"w": "vérifie",
+"s": 61.15,
+"e": 61.57,
+"gold": false
+},
+{
+"w": "la",
+"s": 61.58,
+"e": 61.68,
+"gold": false
+},
+{
+"w": "graduation",
+"s": 61.69,
+"e": 62.31,
+"gold": false
+}
+],
+[
+{
+"w": "à",
+"s": 62.33,
+"e": 62.42,
+"gold": false
+},
+{
+"w": "hauteur",
+"s": 62.43,
+"e": 62.74,
+"gold": false
+},
+{
+"w": "des",
+"s": 62.75,
+"e": 62.88,
+"gold": false
+},
+{
+"w": "yeux.",
+"s": 62.89,
+"e": 63.13,
+"gold": false
+}
+],
+[
+{
+"w": "Où",
+"s": 63.94,
+"e": 64.05,
+"gold": false
+},
+{
+"w": "piquer ?",
+"s": 64.06,
+"e": 64.53,
+"gold": false
+}
+],
+[
+{
+"w": "Dans",
+"s": 65.35,
+"e": 65.58,
+"gold": false
+},
+{
+"w": "le",
+"s": 65.59,
+"e": 65.7,
+"gold": false
+},
+{
+"w": "ventre,",
+"s": 65.71,
+"e": 66.04,
+"gold": true
+}
+],
+[
+{
+"w": "à",
+"s": 66.32,
+"e": 66.37,
+"gold": false
+},
+{
+"w": "5",
+"s": 66.38,
+"e": 66.79,
+"gold": false
+},
+{
+"w": "cm",
+"s": 66.79,
+"e": 67.19,
+"gold": false
+},
+{
+"w": "du",
+"s": 67.2,
+"e": 67.3,
+"gold": false
+},
+{
+"w": "nombril,",
+"s": 67.31,
+"e": 67.82,
+"gold": false
+}
+],
+[
+{
+"w": "sur",
+"s": 68.14,
+"e": 68.28,
+"gold": false
+},
+{
+"w": "le",
+"s": 68.29,
+"e": 68.41,
+"gold": false
+},
+{
+"w": "haut",
+"s": 68.42,
+"e": 68.51,
+"gold": false
+},
+{
+"w": "de",
+"s": 68.53,
+"e": 68.62,
+"gold": false
+},
+{
+"w": "la",
+"s": 68.63,
+"e": 68.73,
+"gold": false
+},
+{
+"w": "cuisse",
+"s": 68.74,
+"e": 69.03,
+"gold": true
+}
+],
+[
+{
+"w": "ou",
+"s": 69.05,
+"e": 69.12,
+"gold": false
+},
+{
+"w": "à",
+"s": 69.13,
+"e": 69.17,
+"gold": false
+},
+{
+"w": "l'arrière",
+"s": 69.19,
+"e": 69.54,
+"gold": false
+},
+{
+"w": "du",
+"s": 69.55,
+"e": 69.66,
+"gold": false
+},
+{
+"w": "bras.",
+"s": 69.67,
+"e": 69.97,
+"gold": true
+}
+],
+[
+{
+"w": "Change",
+"s": 70.78,
+"e": 71.16,
+"gold": false
+},
+{
+"w": "d'endroit",
+"s": 71.17,
+"e": 71.55,
+"gold": false
+},
+{
+"w": "à",
+"s": 71.56,
+"e": 71.64,
+"gold": false
+},
+{
+"w": "chaque",
+"s": 71.65,
+"e": 71.9,
+"gold": false
+},
+{
+"w": "fois.",
+"s": 71.91,
+"e": 72.26,
+"gold": false
+}
+],
+[
+{
+"w": "Désinfecte",
+"s": 73.08,
+"e": 73.7,
+"gold": false
+},
+{
+"w": "la",
+"s": 73.72,
+"e": 73.83,
+"gold": false
+},
+{
+"w": "peau,",
+"s": 73.85,
+"e": 74.11,
+"gold": false
+}
+],
+[
+{
+"w": "pince-la,",
+"s": 74.32,
+"e": 74.74,
+"gold": false
+}
+],
+[
+{
+"w": "pique",
+"s": 75.03,
+"e": 75.21,
+"gold": false
+},
+{
+"w": "à",
+"s": 75.22,
+"e": 75.27,
+"gold": false
+},
+{
+"w": "90",
+"s": 75.28,
+"e": 75.76,
+"gold": true
+},
+{
+"w": "degrés,",
+"s": 75.76,
+"e": 76.24,
+"gold": true
+}
+],
+[
+{
+"w": "injecte",
+"s": 76.59,
+"e": 76.95,
+"gold": false
+},
+{
+"w": "lentement,",
+"s": 76.96,
+"e": 77.38,
+"gold": false
+}
+],
+[
+{
+"w": "compte",
+"s": 77.62,
+"e": 77.83,
+"gold": false
+},
+{
+"w": "jusqu'à",
+"s": 77.84,
+"e": 78.19,
+"gold": false
+},
+{
+"w": "10,",
+"s": 78.2,
+"e": 78.54,
+"gold": true
+}
+],
+[
+{
+"w": "puis",
+"s": 78.76,
+"e": 78.89,
+"gold": false
+},
+{
+"w": "retire",
+"s": 78.91,
+"e": 79.22,
+"gold": false
+},
+{
+"w": "l'aiguille.",
+"s": 79.23,
+"e": 79.72,
+"gold": false
+}
+],
+[
+{
+"w": "Une",
+"s": 80.53,
+"e": 80.7,
+"gold": false
+},
+{
+"w": "seringue",
+"s": 80.71,
+"e": 81.14,
+"gold": false
+},
+{
+"w": "ne",
+"s": 81.16,
+"e": 81.3,
+"gold": false
+},
+{
+"w": "sert",
+"s": 81.31,
+"e": 81.49,
+"gold": false
+},
+{
+"w": "qu'une",
+"s": 81.5,
+"e": 81.7,
+"gold": true
+},
+{
+"w": "fois.",
+"s": 81.71,
+"e": 82.06,
+"gold": true
+}
+],
+[
+{
+"w": "Ne",
+"s": 82.88,
+"e": 83.07,
+"gold": false
+},
+{
+"w": "la",
+"s": 83.08,
+"e": 83.18,
+"gold": false
+},
+{
+"w": "partage",
+"s": 83.2,
+"e": 83.62,
+"gold": false
+},
+{
+"w": "jamais.",
+"s": 83.63,
+"e": 84.03,
+"gold": true
+}
+],
+[
+{
+"w": "Jette-la",
+"s": 84.85,
+"e": 85.31,
+"gold": false
+},
+{
+"w": "directement",
+"s": 85.32,
+"e": 85.93,
+"gold": false
+}
+],
+[
+{
+"w": "dans",
+"s": 85.94,
+"e": 86.06,
+"gold": false
+},
+{
+"w": "la",
+"s": 86.07,
+"e": 86.18,
+"gold": false
+},
+{
+"w": "boîte",
+"s": 86.19,
+"e": 86.44,
+"gold": false
+},
+{
+"w": "à",
+"s": 86.45,
+"e": 86.5,
+"gold": false
+},
+{
+"w": "aiguilles.",
+"s": 86.51,
+"e": 86.97,
+"gold": false
+}
+],
+[
+{
+"w": "Garde",
+"s": 87.78,
+"e": 88.1,
+"gold": false
+},
+{
+"w": "le",
+"s": 88.11,
+"e": 88.23,
+"gold": false
+},
+{
+"w": "flacon",
+"s": 88.24,
+"e": 88.62,
+"gold": false
+},
+{
+"w": "au",
+"s": 88.63,
+"e": 88.74,
+"gold": false
+},
+{
+"w": "frigo,",
+"s": 88.75,
+"e": 89.16,
+"gold": true
+}
+],
+[
+{
+"w": "entre",
+"s": 89.47,
+"e": 89.7,
+"gold": false
+},
+{
+"w": "2",
+"s": 89.7,
+"e": 89.94,
+"gold": false
+},
+{
+"w": "et",
+"s": 89.94,
+"e": 90.17,
+"gold": false
+},
+{
+"w": "8",
+"s": 90.17,
+"e": 90.4,
+"gold": false
+},
+{
+"w": "degrés.",
+"s": 90.4,
+"e": 90.64,
+"gold": false
+}
+],
+[
+{
+"w": "Vomissements",
+"s": 91.45,
+"e": 92.06,
+"gold": false
+},
+{
+"w": "qui",
+"s": 92.08,
+"e": 92.22,
+"gold": false
+},
+{
+"w": "durent,",
+"s": 92.23,
+"e": 92.52,
+"gold": false
+}
+],
+[
+{
+"w": "forte",
+"s": 92.84,
+"e": 93.17,
+"gold": false
+},
+{
+"w": "douleur",
+"s": 93.18,
+"e": 93.54,
+"gold": false
+},
+{
+"w": "au",
+"s": 93.55,
+"e": 93.61,
+"gold": false
+},
+{
+"w": "ventre,",
+"s": 93.62,
+"e": 93.97,
+"gold": false
+}
+],
+[
+{
+"w": "malaise :",
+"s": 94.29,
+"e": 94.76,
+"gold": false
+}
+],
+[
+{
+"w": "arrête",
+"s": 95.07,
+"e": 95.41,
+"gold": false
+},
+{
+"w": "tout",
+"s": 95.42,
+"e": 95.57,
+"gold": false
+}
+],
+[
+{
+"w": "et",
+"s": 95.58,
+"e": 95.74,
+"gold": false
+},
+{
+"w": "appelle",
+"s": 95.75,
+"e": 96.06,
+"gold": false
+},
+{
+"w": "le",
+"s": 96.07,
+"e": 96.18,
+"gold": false
+},
+{
+"w": "15",
+"s": 96.19,
+"e": 96.44,
+"gold": true
+}
+],
+[
+{
+"w": "ou",
+"s": 96.45,
+"e": 96.5,
+"gold": false
+},
+{
+"w": "le",
+"s": 96.51,
+"e": 96.62,
+"gold": false
+},
+{
+"w": "112.",
+"s": 96.63,
+"e": 97.13,
+"gold": true
+}
+]
+]

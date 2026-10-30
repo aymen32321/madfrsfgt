@@ -1,0 +1,6 @@
+node_modules
+out
+# Médias tiers (HugoDécrypte) : régénérer avec les commandes du README
+public/kit
+# Voix d origine (tierce) : régénérer avec ffmpeg, voir README
+public/ticket/audio.wav
